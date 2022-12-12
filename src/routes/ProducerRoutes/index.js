@@ -7,7 +7,7 @@ const Stack = createNativeStackNavigator()
 
 export default function ProducerRoutes({MainComponent = Home}) {
 
-	return <Stack.Navigator> 
+	return <Stack.Navigator screenOptions={{headerShown: false}}> 
 		<Stack.Screen name='HomeScreen' component={MainComponent}/>
 		<Stack.Screen name='Producer' component={Producer}/>
 	</Stack.Navigator>
