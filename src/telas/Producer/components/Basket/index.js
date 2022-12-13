@@ -10,7 +10,7 @@ export default function Basket({ detalhes, itens, produtor }) {
 
     return <TouchableOpacity
         style={estilos.cesta}
-        onPress={() => {}}>
+        onPress={() => navigation.navigate('Basket', {detalhes, itens, produtor})}>
         <View style={estilos.conteudo}>
             <Image source={imagem} style={estilos.imagem} />
 

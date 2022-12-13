@@ -8,6 +8,11 @@ const textos = {
     topoCesta: "Detalhe da cesta",
     botaoComprar: "Comprar",
     tituloItens: "Itens da cesta",
+    purchaseMessage: 'Thanks for the purchase of $NAME, your products will arrive soon.',
+    topBarPurchaseSummary: "Pedido feito com sucesso!",
+    titlePurchaseSummary: "Parabéns!",
+    toHomeButton: "Voltar a Home",
+    toProducerButton: "Voltar ao Produtor",
 };
 
 export default textos;
